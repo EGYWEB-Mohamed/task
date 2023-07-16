@@ -1,0 +1,37 @@
+Tasks 
+Task 1:  رفع ملف اكسل يحتوي ع  عدد غير معروف من الاسطر يحتوي ملف اسكل  ع اسم شخص ورقم جواله وايميله وقم بتخزين المستخدمين في الداتا بيز ومن ثم ارسل لكل شخص ع ايميله رسالة ترحيب
+استخدم job and queue and notification class 
+Task 2:
+Orders Table
+-id
+-user_id
+-total_cost
+-status (new,confirm,shiped,process,delivery,return in progress,return,cancel)
+Order Items Table
+-id
+-order_id
+-product_id
+-qty
+-price
+User Table
+-id
+-name
+-email
+-phone
+-password
+Inverntory table
+-id
+-product_id
+-qty
+-locations
+ااستعلم عن الجمل التالية عن طريق mysql
+1-اعرض جميع الطلبات الي مبيعاتها فوق 500
+2-احضر لكل مستخدم عدد الطلباته ومجموع اسعارهم بالاضافة لعدد طلباته في كل حالة و مجموع اسعارهم
+4-احضر اكثر 3 منتجات مبيعا مع عدد الطلبات والسعر الكلي
+3-باستخدام trigger (يمكن البحث عنها ) 
+عند انشاء طلب عمل تريجر يخصم الكمية المنتج من جدول المستودع 
+Task 3:
+عمل كرون جوب كل نصف ساعة ب ازالة الطلبات الملغية من الداتا بيز
+
+
+
