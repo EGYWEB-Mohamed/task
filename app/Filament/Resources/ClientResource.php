@@ -23,8 +23,9 @@ class ClientResource extends Resource
     protected static ?string $recordTitleAttribute = 'name';
     protected static function getNavigationLabel(): string
     {
-        return 'Task 1';
+        return 'Clients';
     }
+    protected static ?string $navigationGroup = 'Task 1';
     public static function form(Form $form): Form
     {
         return $form->schema([
